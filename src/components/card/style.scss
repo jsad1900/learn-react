@@ -1,0 +1,11 @@
+.item-wiki {
+  background-color: rgb(221, 221, 221);
+  padding: 10px;
+  margin: 10px 20px;
+  a {
+    color: #000;
+    &:hover {
+      color: green;
+    }
+  }
+}

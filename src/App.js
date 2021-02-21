@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import WikipediaSearch from "./components/WikipediaSearch";
 
-function App() {
-  return <div className="App">Dự án react đầu tiên</div>;
+function App(props) {
+  return (
+    <div className="App">
+      <WikipediaSearch />
+    </div>
+  );
 }
 
 export default App;
